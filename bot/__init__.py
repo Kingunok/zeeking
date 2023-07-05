@@ -50,7 +50,7 @@ non_queued_dl = set()
 non_queued_up = set()
 
 try:
-    if bool(environ.get('_____REMOVE_THIS_LINE_____')):
+    if bool(environ.get('')):
         error('README is there to be read! Read and try again! Exiting now!')
         exit()
 except:
